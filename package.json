@@ -1,0 +1,10 @@
+{
+  "name": "reading-list-api",
+  "version": "1.0.0",
+  "description": "A small validated REST API for a personal reading list",
+  "type": "module",
+  "scripts": { "start": "node src/server.js", "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "express": "^5.1.0" },
+  "devDependencies": { "supertest": "^7.1.4" }
+}
